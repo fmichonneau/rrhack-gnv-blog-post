@@ -6,7 +6,7 @@ library(wesanderson)
 library(dplyr)
 
 knitr::opts_chunk$set(fig.width = 9, echo = FALSE, message = FALSE, warning = FALSE,
-                      fig.align = "center")
+                      fig.align = "center", fig.path = "figures/")
 theme_set(theme_cowplot(font_size = 12))
 
 pre_srv <- read.csv(file="preworkshop_survey.csv", stringsAsFactors = FALSE)
@@ -227,4 +227,5 @@ much higher than prior to the workshop.
 * [wiki](https://www.idigbio.org/wiki/index.php/Reproducible_Science_Workshop)
 * [Workshop website](http://reproducible-science-curriculum.github.io/2015-06-01-reproducible-science-idigbio/)
 * [GitHub Repository](https://github.com/Reproducible-Science-Curriculum/) for
-  all the lessons
+all the lessons
+* [GitHub Repository](https://github.com/fmichonneau/rrhack-gnv-blog-post) for this blog post
